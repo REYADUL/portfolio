@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+body{
+    font-family: 'Montagu Slab', serif;
+}
+h1{
+    font-size: 50px;
+}
+.orange-highlite{
+    color:orange ;
+}
+/* .firstimg{
+    height: 500px;
+    width: 700px;
+} */
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top:2% ;
+}
+.second-width{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.second-width img{
+    padding-top:5% ;
+    width: 100%;
+}
+.second-section{
+    background-image: url(../portfolio/img/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+.button-link{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg ,lightSalmon,tomato);
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+.experience-area{
+    background-image: url(../portfolio/img/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    
+}
